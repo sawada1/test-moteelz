@@ -25,7 +25,7 @@ export default defineNuxtConfig({
     // Initialize AOS
     once: true, // Animation happens only once
   },
-  ssr:false,
+  // ssr:false,
   // pinia: {
   //   autoImports: ['defineStore', 'acceptHMRUpdate'], // Optional: Auto-import helpers
   // },
@@ -56,7 +56,7 @@ export default defineNuxtConfig({
     ],
   },
   app: {
-    
+    baseURL:"https://test-moteelz.netlify.app/",
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
