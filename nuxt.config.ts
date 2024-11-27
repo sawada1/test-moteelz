@@ -25,7 +25,7 @@ export default defineNuxtConfig({
     // Initialize AOS
     once: true, // Animation happens only once
   },
-  // ssr:false,
+  ssr:false,
   // pinia: {
   //   autoImports: ['defineStore', 'acceptHMRUpdate'], // Optional: Auto-import helpers
   // },
