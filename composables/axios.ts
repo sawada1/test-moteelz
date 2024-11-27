@@ -14,7 +14,7 @@ export function useApiAxios<T>(
   retries = 3
 ): Promise<T> {
   const config = useRuntimeConfig();
-  const baseURL = config.public.apiUrl;
+  const baseURL = 'https://dev-api-v2.moteelz.com';
   const instance: AxiosInstance = axios.create({ baseURL });
   const token = localStorage.getItem("token");
   const language = localStorage.getItem("lang") || "ar";
