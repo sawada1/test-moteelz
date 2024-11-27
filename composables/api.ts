@@ -62,7 +62,7 @@ export const useApi = async <T>(
     try {
       const { data, error, pending, response } = await useFetch<T>(request, {
         method,
-        baseURL: config.public.apiUrl,
+        baseURL: 'https://dev-api-v2.moteelz.com',
         headers,
         query,
         body: content instanceof FormData ? content : JSON.stringify(content),
