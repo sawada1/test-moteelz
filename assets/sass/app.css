@@ -1,0 +1,20 @@
+body, html {
+  font-family: 'Rubik', sans-serif;
+  overflow-x: clip !important;
+  overflow-y: visible !important;
+}
+
+.main-hero-container .btns-container button.active span {
+  color: #fff;
+}
+
+.main-hero-container .btns-container button.active svg path {
+  fill: #ffff;
+}
+/*# sourceMappingURL=app.css.map */
+input:focus-visible{
+  --tw-ring-offset-shadow: none !important;
+  --tw-ring-shadow: none !important;
+  box-shadow: none !important;
+}
+

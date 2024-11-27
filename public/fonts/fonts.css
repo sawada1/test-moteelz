@@ -1,0 +1,60 @@
+
+/* @font-face {
+  font-family: 'BalooBhaijaan2';
+  src: url('./BalooBhaijaan2-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} */
+
+/* @font-face {
+  font-family: 'BalooBhaijaan2';
+  src: url('./BalooBhaijaan2-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+} */
+
+/* @font-face {
+  font-family: 'BalooBhaijaan2';
+  src: url('./BalooBhaijaan2-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+} */
+
+/* @font-face {
+  font-family: 'BalooBhaijaan2';
+  src: url('./BalooBhaijaan2-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+} */
+@font-face {
+  font-family: 'Rubik';
+  src: url('./fonts/Rubik-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('./fonts/Rubik-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: 'BalooBhaijaan2';
+  src: url('./BalooBhaijaan2-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+} */
+
+
+html {
+  font-family: 'Rubik', sans-serif;
+  font-weight: normal;
+
+}
