@@ -56,7 +56,7 @@ export default defineNuxtConfig({
     ],
   },
   app: {
-    baseURL:"https://test-moteelz.netlify.app/",
+    baseURL:"/https://test-moteelz.netlify.app/",
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
